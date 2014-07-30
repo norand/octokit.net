@@ -1,5 +1,5 @@
 @echo off
-
+@test
 "tools\nuget\nuget.exe" "install" "FAKE.Core" "-OutputDirectory" "tools" "-ExcludeVersion" "-version" "2.18.1"
 
 :Build
